@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/art" />
   <remove-project name="device/generic/uml" />
 
   <remove-project name="device/google/muskie" />
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
+
+  <remove-project name="platform/frameworks/compile/libbcc" />
+  <remove-project name="platform/frameworks/support" />
+
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/sfntly" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/zlib" />
 
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
@@ -143,6 +153,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
 
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
