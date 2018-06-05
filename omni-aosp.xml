@@ -13,6 +13,9 @@
 
   <remote  name="nos"
            fetch="https://github.com/nitrogen-project" />
+		   
+  <remote  name="map"
+           fetch="https://github.com/NeedlesOne" />
 
   <project path="art" name="android_art" remote="hdp" revision="hdo" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="hdp" revision="hdo" groups="pdk" />
@@ -48,13 +51,13 @@
   <project path="external/zlib" name="android_external_zlib" remote="hdp" revision="hdo" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="hdp" revision="hdo" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="hdp" revision="hdo" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="map" revision="hdo" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="hdp" revision="hdo" />
   <project path="frameworks/native" name="android_frameworks_native" remote="hdp" revision="hdo" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="hdp" revision="hdo" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-8.1" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="omnirom" revision="android-8.1" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="hdp" revision="hdo" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="map" revision="hdo" />
 
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="omnirom" revision="android-8.1" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-8.1" />
@@ -78,7 +81,7 @@
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-8.1" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="hdp" revision="hdo" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="map" revision="hdo" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-8.1" />
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="o2" />
